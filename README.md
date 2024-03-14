@@ -1,5 +1,5 @@
 # Blood Extraction Device
-  <p align="center">
+  <p align="left">
     <img src="images/hardware-structure.png" width="450" title="hover text">
   </p>
   
@@ -13,20 +13,14 @@
 
 * ### Design Diagrams
   <p align="left">
-    <img src="images/diag3.png" width="558" title="hover text">
-    <img src="images/diag4.png" width="400" title="hover text">
+    <img src="images/design-diag.png" width="800" title="hover text">
   </p>
 
+
+* ## Image Capturing Mechanism  
   <p align="left">
-    <img src="images/diag1.png" width="460" title="hover text">
-    <img src="images/diag2.png" width="515" title="hover text">
+    <img src="images/data-collection.png" width="600" title="hover text">
   </p>
-
-## Usage  
-* ### CLI Interface
-  The user needs to pass the image to the command line script and the user’s image as well as the corresponding output mask is displayed
-
-
 
 
 ## Setup  

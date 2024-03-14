@@ -1,4 +1,33 @@
-# Vein_Segmentation
+# Blood Extraction Device
+  <p align="center">
+    <img src="images/hardware-structure.png" width="450" title="hover text">
+  </p>
+  
+## Problem Scope 
+* Blood extraction device will be able to automatically extract blood without any human assistance.
+* The device will be able to detect the veins in a person’s arm by capturing the photo of the arm.
+* The ML model will calculate the coordinates of the venipuncture point from where the blood will be extracted.
+* The device also includes a syringe load and unload mechanism to change the syringe everytime after performing the extraction process.
+
+## Hardware Structure
+
+* ### Design Diagrams
+  <p align="left">
+    <img src="images/diag3.png" width="558" title="hover text">
+    <img src="images/diag4.png" width="400" title="hover text">
+  </p>
+
+  <p align="left">
+    <img src="images/diag1.png" width="460" title="hover text">
+    <img src="images/diag2.png" width="515" title="hover text">
+  </p>
+
+## Usage  
+* ### CLI Interface
+  The user needs to pass the image to the command line script and the user’s image as well as the corresponding output mask is displayed
+
+
+
 
 ## Setup  
   * To use the pickled model for inference, download the model weights from [link](https://drive.google.com/file/d/11wMm9ecgAKAZYJzM733wGRrjnlhHqHQp/view?usp=sharing)
@@ -21,6 +50,11 @@ foo@bar:~$ python3 inference.py --img veins.jpg
 
 ```
 
+### Output Image
+<p align="left">
+    <img src="images/sample-output.png" width="600" title="hover text">
+  </p>
+
 ## To use GUI
 
 ```console
@@ -39,4 +73,7 @@ This share link will expire in 24 hours. If you need a permanent link, visit: ht
 2021-08-01 13:42:27.386508: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 1800000000 Hz
 ```
 
-  <img src="https://github.com/namantuli18/Vein_Segmentation/blob/main/Screenshot%20from%202021-08-01%2013-47-28.png">
+### Output Image
+<p align="left">
+    <img src="images/ui.png" width="1000" title="hover text">
+  </p>
